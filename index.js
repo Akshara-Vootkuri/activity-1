@@ -4,7 +4,7 @@ function getadvice() {
   fetch("https://api.api-ninjas.com/v1/advice", {
     method: "GET",
     headers: {
-      'X-Api-Key': 'R4E+sacdvnxhAJy6dNl0/w==4UEFvxxh5bPVbrH5'  // 🔑 Replace with your actual API key
+      'X-Api-Key': 'R4E+sacdvnxhAJy6dNl0/w==4UEFvxxh5bPVbrH5'  
     }
   })
     .then(response => response.json())
